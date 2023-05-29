@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 
-const ComputersModel = ({isMobile}) => {
+const ComputersModel = ({ isMobile }) => {
   const computer = useGLTF('/models/logo.glb');
 
   return (
@@ -29,7 +29,7 @@ const ComputersModel = ({isMobile}) => {
 };
 
 const ComputersCanvas = () => {
-  const  [isMobile, setisMobile] = useState(false); 
+  const [isMobile, setisMobile] = useState(false);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 500px)'); // listener for mobile devices
@@ -58,7 +58,7 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2} />
-        <ComputersModel  isMobile={isMobile}/>
+        <ComputersModel isMobile={isMobile} />
       </Suspense>
 
       <Preload all />
