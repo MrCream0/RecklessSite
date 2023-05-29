@@ -119,57 +119,61 @@ import {
     },
   ];
   
-  const experiences = [
+  const staff = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Staff member 1",
+      company_name: "Memeber Title",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Date maybe? might not be needed",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Staff member 2",
+      company_name: "Memeber Title",
+      icon: starbucks,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Date maybe? might not be needed",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Staff member 3",
+      company_name: "Memeber Title",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "Date maybe? might not be needed",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
+      ],
+    },
+    {
+      title: "Staff member 4",
+      company_name: "Memeber Title",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "Date maybe? might not be needed",
+      points: [
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
       ],
     },
   ];
@@ -267,4 +271,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, staff, testimonials, projects };
