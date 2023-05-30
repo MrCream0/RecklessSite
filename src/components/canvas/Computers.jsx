@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 
-const ComputersModel = ({ isMobile }) => {
+const ComputersModel = () => {
   const computer = useGLTF('/models/logo.glb');
 
   return (
@@ -18,36 +18,30 @@ const ComputersModel = ({ isMobile }) => {
         castShadow
         shadowMapSize={1024}
       />
-      <primitive
-        object={computer.scene}
-        scale={isMobile ? 1 : .75}
-        position={isMobile ? [0, -3, -2.2] : [0, 0, 0]}
-        rotation={[0, 5, 0]}
-      />
+      <primitive object={computer.scene} scale={0.75} position={[0, 0, 0]} rotation={[0, 5, 0]} />
     </mesh>
   );
 };
 
 const ComputersCanvas = () => {
-  const [isMobile, setisMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 500px)'); // listener for mobile devices
+    const mediaQuery = window.matchMedia('(max-width: 500px)');
 
-    setisMobile(mediaQuery.matches); // set initial state 
+    setIsMobile(mediaQuery.matches);
 
-    const handleMediaQueryChange = (event) => { //callback for changes to media query
-      setisMobile(event.matches);
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
     };
 
-    mediaQuery.addEventListener('change', handleMediaQueryChange); //callback listener for changes to media query
+    mediaQuery.addEventListener('change', handleMediaQueryChange);
     handleMediaQueryChange(mediaQuery);
 
     return () => {
-      mediaQuery.removeEventListener('change', handleMediaQueryChange); //drops listener when component unmounts
-    }
-  })
-
+      mediaQuery.removeEventListener('change', handleMediaQueryChange);
+    };
+  }, []);
 
   return (
     <Canvas
@@ -58,7 +52,7 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2} />
-        <ComputersModel isMobile={isMobile} />
+        {!isMobile && <ComputersModel />}
       </Suspense>
 
       <Preload all />
