@@ -11,9 +11,9 @@ const App = () => {
         <Navbar />
         <Hero />
       </div>
+      <Socials />
       <About />
       <Staff />
-      <Socials />
       <Works />
       <Feedbacks />
       <div className="realitve z-0">

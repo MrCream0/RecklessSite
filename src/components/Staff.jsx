@@ -10,7 +10,7 @@ import { textVariant } from "../utils/motion";
 
 const StaffCard = ({ staff }) => (
   <VerticalTimelineElement
-    contentStyle={{ background: "#1d1836", color: "#fff" }}
+    contentStyle={{ background: "#151313", color: "#fff" }}
     contentArrowStyle={{ borderRight: "7px solid #232631" }}
     date={staff.date}
     iconStyle={{ background: staff.iconBg }}

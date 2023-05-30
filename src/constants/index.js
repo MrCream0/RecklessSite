@@ -73,11 +73,11 @@ import {
   
   const staff = [
     {
-      title: "Staff member 1",
+      title: "Phantom",
       company_name: "Memeber Title",
       icon: applesaurus,
       iconBg: "#383E56",
-      date: "Date maybe? might not be needed",
+      date: "TRD Phantom#6132",
       points: [
         "i am a staff member and i do stuff and things",
         "i am a staff member and i do stuff and things",
@@ -87,11 +87,11 @@ import {
       ],
     },
     {
-      title: "Staff member 2",
+      title: "TRD meliodas5012",
       company_name: "Memeber Title",
       icon: applesaurus,
       iconBg: "#383E56",
-      date: "Date maybe? might not be needed",
+      date: "TRD meliodas5012#5122",
       points: [
         "i am a staff member and i do stuff and things",
         "i am a staff member and i do stuff and things",
@@ -101,11 +101,11 @@ import {
       ],
     },
     {
-      title: "Staff member 3",
+      title: "Grade",
       company_name: "Memeber Title",
       icon: applesaurus,
       iconBg: "#383E56",
-      date: "Date maybe? might not be needed",
+      date: "Grade#0001",
       points: [
         "i am a staff member and i do stuff and things",
         "i am a staff member and i do stuff and things",
@@ -115,11 +115,25 @@ import {
       ],
     },
     {
-      title: "Staff member 4",
+      title: "TRD Turtle",
       company_name: "Memeber Title",
       icon: applesaurus,
       iconBg: "#383E56",
-      date: "Date maybe? might not be needed",
+      date: "TRD Turtle#0128",
+      points: [
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
+        "i am a staff member and i do stuff and things",
+      ],
+    },
+    {
+      title: "TRD Mayuri",
+      company_name: "Memeber Title",
+      icon: applesaurus,
+      iconBg: "#383E56",
+      date: "TRD Mayuri#5800",
       points: [
         "i am a staff member and i do stuff and things",
         "i am a staff member and i do stuff and things",
@@ -133,27 +147,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "i never thought id be able sit on a chair and do stuff and things but here i am doing stuff and things",
+      name: "aunt jemima",
+      designation: "IBS",
+      company: "The Pancake Factory",
+      image: "",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "this is not a real testimonial, this is just filler text",
       name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      designation: "COP",
+      company: "Police land",
+      image: "",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "this is not a song its a sandwich",
+      name: "what would you do for a klondike bar",
+      designation: "WAKA",
+      company: "Hard in the paint",
+      image: "",
     },
   ];
   
@@ -219,7 +233,7 @@ import {
         },
       ],
       image: octo3,
-      source_code_link: "https://github.com/",
+      source_code_link: "https//Google.com/",
     },
   ];
   
