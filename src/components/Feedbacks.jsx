@@ -39,8 +39,8 @@ const Feedbacks = () => {
     <div className="mt-12 bg-balck-100 rounded-[20px]">
       <div className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}>
         <motion.div variants={textVariant()}>
-          <p className={`${styles.sectionSubText}`}>Feedback</p>
-          <h2 className={`${styles.sectionHeadText}`}>Throwing this in for now not sure if its needed or it can be replaced with something else</h2>
+          <p className={`${styles.sectionSubText}`}>Check out our merch</p>
+          <h2 className={`${styles.sectionHeadText}`}>If you want to support Reckless directly grab some merch</h2>
         </motion.div>
       </div>
       <div className={`${styles.paddingX} pb-14 flex flex-wrap gap-7`}>{/*-mt-20*/}

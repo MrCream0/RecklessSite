@@ -48,7 +48,7 @@ const Staff = () => {
           Who Are We?
         </p>
         <h2 className={styles.sectionHeadText}>
-          Meet our staff
+          Meet our founders
         </h2>
       </motion.div>
 

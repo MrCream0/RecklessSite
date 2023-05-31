@@ -49,23 +49,16 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
-          Not sure
+          check out our partners
         </p>
         <h2 className={styles.sectionHeadText}>
-          What to put here
+          Our Partners
         </h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          Bippity boppity boo
-          theres nothing here for you
-          so go away and dont come back
-          or else i will give you a smack
-          and you will cry and you will cry
-          and you will cry and you will cry
-          and you will cry and you will cry
-          and you will cry and you will cry
+          Give our partners a look and see what they have to offer.
         </motion.p>
       </div>
 

@@ -56,18 +56,21 @@ import {
     {
       name: "Discord",
       icon: discord,
+      link: "https://discord.gg",
     },
     {
       name: "Twitter",
       icon: twitter,
+      link: "https://twitter.com",
     },
-    {
+    /*{
       name: "instagram",
       icon: insta,
-    },
+    },*/
     {
       name: "tik tok",
       icon: tiktok,
+      link: "https://www.tiktok.com",
     },
   ];
   
@@ -147,54 +150,54 @@ import {
   const testimonials = [
     {
       testimonial:
-        "i never thought id be able sit on a chair and do stuff and things but here i am doing stuff and things",
-      name: "aunt jemima",
-      designation: "IBS",
-      company: "The Pancake Factory",
+        "image for shirt",
+      name: "",
+      designation: "long sleeve",
+      company: "TRD",
       image: "",
     },
     {
       testimonial:
-        "this is not a real testimonial, this is just filler text",
-      name: "Chris Brown",
-      designation: "COP",
-      company: "Police land",
+        "image for mousepad",
+      name: "",
+      designation: "mousepad",
+      company: "TRD",
       image: "",
     },
     {
       testimonial:
-        "this is not a song its a sandwich",
-      name: "what would you do for a klondike bar",
-      designation: "WAKA",
-      company: "Hard in the paint",
+        "image for hoodie",
+      name: "",
+      designation: "hoodie",
+      company: "TRD",
       image: "",
     },
   ];
   
   const projects = [
     {
-      name: "Hello",
+      name: "Toxic Gaming",
       description:
-        "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+        "Heres a desc for Toxic Gaming",
       tags: [
         {
-          name: "How",
+          name: "TGK",
           color: "blue-text-gradient",
         },
         {
-          name: "Didi",
+          name: "Toxic",
           color: "green-text-gradient",
         },
         {
-          name: "Gethere",
+          name: "Gaming",
           color: "pink-text-gradient",
         },
       ],
       image: octo1,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://toxicgaming.gg/",
     },
     {
-      name: "I have",
+      name: "Heres partner 2",
       description:
         "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
       tags: [
@@ -215,7 +218,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "No Purpose",
+      name: "Partner 3",
       description:
         "lorems ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
       tags: [
