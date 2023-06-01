@@ -4,6 +4,10 @@ import {
     creator,
     web,
     applesaurus,
+    headshot,
+    mousepad,
+    hoodie,
+    tumbler,
     octo1,
     octo2,
     octo3,
@@ -19,7 +23,7 @@ import {
       title: "About",
     },
     {
-      id: "work",
+      id: "home",
       title: "Home",
     },
     {
@@ -31,12 +35,16 @@ import {
       title: "Partners",
     },
     {
-      id: "social",
+      id: "socials",
       title: "Socials",
     },
     {
-      id: "Rules",
+      id: "rules",
       title: "Rules",
+    },
+    {
+      id: "merch",
+      title: "Merch",
     }
   ];
   
@@ -88,6 +96,7 @@ import {
         "i am a staff member and i do stuff and things",
         "i am a staff member and i do stuff and things",
       ],
+      image: headshot,
     },
     {
       title: "TRD meliodas5012",
@@ -102,6 +111,7 @@ import {
         "i am a staff member and i do stuff and things",
         "i am a staff member and i do stuff and things",
       ],
+      image: "",
     },
     {
       title: "Grade",
@@ -116,6 +126,7 @@ import {
         "i am a staff member and i do stuff and things",
         "i am a staff member and i do stuff and things",
       ],
+      image: "",
     },
     {
       title: "TRD Turtle",
@@ -130,6 +141,7 @@ import {
         "i am a staff member and i do stuff and things",
         "i am a staff member and i do stuff and things",
       ],
+      image: "",
     },
     {
       title: "TRD Mayuri",
@@ -144,17 +156,18 @@ import {
         "i am a staff member and i do stuff and things",
         "i am a staff member and i do stuff and things",
       ],
+      image: "",
     },
   ];
   
   const testimonials = [
     {
       testimonial:
-        "image for shirt",
+        "",
       name: "",
-      designation: "long sleeve",
+      designation: "Mousepad",
       company: "TRD",
-      image: "",
+      image: mousepad,
     },
     {
       testimonial:
@@ -162,7 +175,7 @@ import {
       name: "",
       designation: "mousepad",
       company: "TRD",
-      image: "",
+      image: tumbler,
     },
     {
       testimonial:
@@ -170,7 +183,7 @@ import {
       name: "",
       designation: "hoodie",
       company: "TRD",
-      image: "",
+      image: hoodie,
     },
   ];
   

@@ -18,6 +18,10 @@ import applesaurus from "./applesaurus.png";
 import octo1 from "./octo1.png";
 import octo2 from "./octo2.png";
 import octo3 from "./octo3.png";
+import headshot from "./headshot.png";
+import mousepad from "./MousePadNoBack.png";
+import hoodie from "./HoodieNoBack.png";
+import tumbler from "./TumblerNoBack.png";
 
 export {
   logo,
@@ -36,4 +40,8 @@ export {
   octo1,
   octo2,
   octo3,
+  headshot,
+  mousepad,
+  hoodie,
+  tumbler,
 };

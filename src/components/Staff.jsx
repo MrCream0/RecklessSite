@@ -10,8 +10,8 @@ import { textVariant } from "../utils/motion";
 
 const StaffCard = ({ staff }) => (
   <VerticalTimelineElement
-    contentStyle={{ background: "#151313", color: "#fff" }}
-    contentArrowStyle={{ borderRight: "7px solid #232631" }}
+    contentStyle={{ background: "#151313", color: "#881313" }}
+    contentArrowStyle={{ borderRight: `7px solid #ff0000` }}
     date={staff.date}
     iconStyle={{ background: staff.iconBg }}
     icon={
@@ -37,6 +37,10 @@ const StaffCard = ({ staff }) => (
           </li>
         ))}
       </ul>
+
+      <div>
+        <img src={staff.image} className="w-[60%] h-[60%] object-contain"/>
+      </div>
   </VerticalTimelineElement>
 )
 
@@ -47,13 +51,13 @@ const Staff = () => {
         <p className={styles.sectionSubText}>
           Who Are We?
         </p>
-        <h2 className={styles.sectionHeadText}>
+        <h2 className={`${styles.sectionHeadText} red-black-text-header-gradient`}>
           Meet our founders
         </h2>
       </motion.div>
 
       <div className="md-20 flex flex-col">
-        <VerticalTimeline>
+        <VerticalTimeline lineColor="#931010">
           {staff.map((staff, index) => (
             <StaffCard key={index} staff={staff} />
           ))}

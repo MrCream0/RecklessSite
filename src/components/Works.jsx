@@ -51,7 +51,7 @@ const Works = () => {
         <p className={styles.sectionSubText}>
           check out our partners
         </p>
-        <h2 className={styles.sectionHeadText}>
+        <h2 className={`${styles.sectionHeadText} red-black-text-header-gradient`}>
           Our Partners
         </h2>
       </motion.div>
@@ -75,4 +75,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "partners");

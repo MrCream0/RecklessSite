@@ -14,8 +14,16 @@ const FeebackCard = ({ index, testimonial, name, designation, company, image }) 
     <div className="mt-1">
       <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
 
-      <div className="mt-7 flex justify-between items-center gap-1">
-        <div className="flex-1 flex flex-col">
+      <div className="mt-7 flex flex-col gap-1">
+        <div className="flex justify-center items-center">
+          <img 
+            src={image}
+            alt={`feedback-by-${name}`}
+            className="w-25 h-25 object-cover"
+          />
+        </div>
+        
+        <div className="flex justify-center items-center flex-1 flex-col">
           <p className="text-white font-medium text-[16px]">
             <span className="blue-text-gradient">@</span> {name}
           </p>
@@ -24,15 +32,10 @@ const FeebackCard = ({ index, testimonial, name, designation, company, image }) 
           </p>
         </div>
 
-        <img 
-        src={image}
-        alt={`feedback-by-${name}`}
-        className="w-10 h-10 rounded-full object-cover"/>
-
       </div>
     </div>
   </motion.div>
-)
+);
 
 const Feedbacks = () => {
   return (
@@ -40,7 +43,7 @@ const Feedbacks = () => {
       <div className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}>
         <motion.div variants={textVariant()}>
           <p className={`${styles.sectionSubText}`}>Check out our merch</p>
-          <h2 className={`${styles.sectionHeadText}`}>If you want to support Reckless directly grab some merch</h2>
+          <h2 className={`${styles.sectionHeadText} red-black-text-header-gradient`}>If you want to support Reckless directly grab some merch</h2>
         </motion.div>
       </div>
       <div className={`${styles.paddingX} pb-14 flex flex-wrap gap-7`}>{/*-mt-20*/}
@@ -55,4 +58,4 @@ const Feedbacks = () => {
   )
 }
 
-export default SectionWrapper(Feedbacks, "")
+export default SectionWrapper(Feedbacks, "merch")

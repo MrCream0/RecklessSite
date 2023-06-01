@@ -18,6 +18,11 @@ const Contact = () => {
 
   const handleChange = (e) => { }
   const handleSubmit = (e) => { }
+
+  const redirectToApplication = () => {
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfU6IaqT8laPzuVxq6x5cKY5-LcDwRiH4yPzjGwtSk89tj2sQ/viewform";
+  }
+
   return (
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
@@ -27,7 +32,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={`${styles.sectionHeadText} red-black-text-header-gradient`}>Contact.</h3>
 
         <form
           ref={formRef}
@@ -83,6 +88,7 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+      <button className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary' onClick={redirectToApplication}/>
     </div>
   )
 }
