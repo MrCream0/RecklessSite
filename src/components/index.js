@@ -8,6 +8,7 @@ import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Footer from './Footer';
+import Rules from './Rules';
 
 export {
   Hero,
@@ -23,4 +24,5 @@ export {
   ComputersCanvas,
   StarsCanvas,
   Footer,
+  Rules,
 }

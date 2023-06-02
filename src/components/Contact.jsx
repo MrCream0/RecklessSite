@@ -80,6 +80,7 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+        <button className='bg-tertiary py-3 px-8 rounded-xl outline-none w-full text-white font-bold shadow-md shadow-primary mt-5' onClick={redirectToApplication} type="text">JOIN HERE</button>
       </motion.div>
 
       <motion.div
@@ -88,7 +89,6 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
-      <button className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary' onClick={redirectToApplication} type="text">JOIN HERE</button>
     </div>
   )
 }
