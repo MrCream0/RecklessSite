@@ -18,9 +18,9 @@ export {
   Works,
   Feedbacks,
   Contact,
-  EarthCanvas, 
-  BallCanvas, 
-  ComputersCanvas, 
+  EarthCanvas,
+  BallCanvas,
+  ComputersCanvas,
   StarsCanvas,
   Footer,
 }

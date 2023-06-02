@@ -163,7 +163,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "",
+        "Large Mousepad",
       name: "",
       designation: "Mousepad",
       company: "TRD",
@@ -171,7 +171,7 @@ import {
     },
     {
       testimonial:
-        "image for mousepad",
+        "Tumbler",
       name: "",
       designation: "mousepad",
       company: "TRD",
@@ -179,7 +179,7 @@ import {
     },
     {
       testimonial:
-        "image for hoodie",
+        "Hoodie",
       name: "",
       designation: "hoodie",
       company: "TRD",

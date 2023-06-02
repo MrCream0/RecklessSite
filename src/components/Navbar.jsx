@@ -21,8 +21,8 @@ const Navbar = () => {
           }}>
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="red-black-text-gradient text-[18px] font-bold cursor-pointer flex">
-          Reckless &nbsp; 
-          <span className="sm:block hidden">Division</span></p>
+            Reckless &nbsp;
+            <span className="sm:block hidden">Division</span></p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
@@ -56,11 +56,11 @@ const Navbar = () => {
             <ul className="list-none flex justfiy-end items-start flex-col gap-4">
               {navLinks.map((link) => (
                 <li key={link.id} className={`${active === link.title
-                      ? "text-white"
-                      : "text-secondary"
-                    } font-poppins font-medium 
+                  ? "text-white"
+                  : "text-secondary"
+                  } font-poppins font-medium 
                     cusor-pointer text-[16px]`}
-                    onClick={() => {
+                  onClick={() => {
                     setToggle(!toggle);
                     setActive(link.title);
                   }}

@@ -88,7 +88,7 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
-      <button className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary' onClick={redirectToApplication}/>
+      <button className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary' onClick={redirectToApplication} type="text">JOIN HERE</button>
     </div>
   )
 }
