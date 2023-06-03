@@ -10,6 +10,7 @@ import insta from "./social/insta.png";
 
 import phantom from "./PhantomHeadshot.png"
 import turtle from "./TurtleHeadshot.png"
+import mayuri from "./MayuriHeadshot.png"
 
 import applesaurus from "./applesaurus.png";
 import octo1 from "./octo1.png";
@@ -39,4 +40,5 @@ export {
   tumbler,
   phantom,
   turtle,
+  mayuri,
 };
