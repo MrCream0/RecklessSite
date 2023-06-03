@@ -1,8 +1,4 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
     applesaurus,
     headshot,
     mousepad,
@@ -51,11 +47,11 @@ import {
   const services = [
     {
       title: "Filler Stuff",
-      icon: web,
+      icon: applesaurus,
     },
     {
       title: "Not Sure",
-      icon: creator,
+      icon: applesaurus,
     },
 
   ];
@@ -71,10 +67,6 @@ import {
       icon: twitter,
       link: "https://twitter.com",
     },
-    /*{
-      name: "instagram",
-      icon: insta,
-    },*/
     {
       name: "tik tok",
       icon: tiktok,

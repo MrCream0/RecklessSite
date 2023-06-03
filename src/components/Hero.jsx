@@ -3,6 +3,7 @@ import { motion } from "framer-motion"
 import { styles } from "../styles"
 import { ComputersCanvas } from "./canvas"
 import { SectionWrapper } from '../hoc'
+import logo from "../assets/logo.png"
 
 const Hero = () => {
 
@@ -23,7 +24,9 @@ const Hero = () => {
         </div>
       </div>
 
-      {/*<ComputersCanvas /> somethings going on with this logo*/}
+      <div className="absolute top-[50%] left-[50%] transform translate(-50%, -50%)">
+        <img src={logo} className="w-[360px] h-[420px]" alt="Logo" />
+      </div>
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
