@@ -8,7 +8,8 @@ import tiktok from "./social/tiktok.png";
 import twitter from "./social/twitter.png";
 import insta from "./social/insta.png";
 
-
+import phantom from "./PhantomHeadshot.png"
+import turtle from "./TurtleHeadshot.png"
 
 import applesaurus from "./applesaurus.png";
 import octo1 from "./octo1.png";
@@ -36,4 +37,6 @@ export {
   mousepad,
   hoodie,
   tumbler,
+  phantom,
+  turtle,
 };

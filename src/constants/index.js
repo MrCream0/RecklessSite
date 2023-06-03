@@ -10,7 +10,8 @@ import {
     tiktok,
     discord,
     twitter,
-    insta,
+    phantom,
+    turtle,
   } from "../assets";
   
   export const navLinks = [
@@ -77,18 +78,16 @@ import {
   const staff = [
     {
       title: "Phantom",
-      company_name: "Memeber Title",
+      company_name: "Owner",
       icon: applesaurus,
       iconBg: "#383E56",
       date: "TRD Phantom#6132",
       points: [
-        "i am a staff member and i do stuff and things",
-        "i am a staff member and i do stuff and things",
-        "i am a staff member and i do stuff and things",
-        "i am a staff member and i do stuff and things",
-        "i am a staff member and i do stuff and things",
+        "Experienced gamer since the age of six",
+        "Proud father of three",
+        "Enthusiast of cars and motorcycles",
       ],
-      image: headshot,
+      image: phantom,
     },
     {
       title: "TRD meliodas5012",
@@ -122,18 +121,16 @@ import {
     },
     {
       title: "TRD Turtle",
-      company_name: "Memeber Title",
+      company_name: "Director of operations",
       icon: applesaurus,
       iconBg: "#383E56",
       date: "TRD Turtle#0128",
       points: [
-        "i am a staff member and i do stuff and things",
-        "i am a staff member and i do stuff and things",
-        "i am a staff member and i do stuff and things",
-        "i am a staff member and i do stuff and things",
-        "i am a staff member and i do stuff and things",
+        "Lifelong gamer",
+        "Involved in gaming community/clan for over a decade",
+        "Dedicated gamer and proud father, striking a balance between gaming and family life",
       ],
-      image: "",
+      image: turtle,
     },
     {
       title: "TRD Mayuri",
