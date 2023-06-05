@@ -8,7 +8,8 @@ import { SectionWrapper } from "../hoc"
 import { socials } from "../constants"
 import { styles } from "../styles"
 
-const SocialCard = ({ index, icon }) => {
+const SocialCard = ({ index, icon}) => {
+
   return (
     <Tilt className="w-28 h-28">
       <motion.div
@@ -38,7 +39,7 @@ const Socials = () => {
 
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-20">
         {socials.map((social) => (
-          <SocialCard icon={social.icon} key={social.name} />
+          <SocialCard icon={social.icon} key={social.name}/>
         ))}
       </div>
     </>

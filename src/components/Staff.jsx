@@ -38,7 +38,7 @@ const StaffCard = ({ staff }) => (
         ))}
       </ul>
 
-      <div>
+      <div className="flex flex-auto justify-center">
         <img src={staff.image} className="w-[60%] h-[60%] object-contain"/>
       </div>
   </VerticalTimelineElement>

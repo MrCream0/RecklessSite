@@ -11,6 +11,8 @@ import insta from "./social/insta.png";
 import phantom from "./PhantomHeadshot.png"
 import turtle from "./TurtleHeadshot.png"
 import mayuri from "./MayuriHeadshot.png"
+import grade from "./GradeHeadshot.png";
+import meliodas from "./MeliodasHeadshot.png"
 
 import applesaurus from "./applesaurus.png";
 import octo1 from "./octo1.png";
@@ -41,4 +43,6 @@ export {
   phantom,
   turtle,
   mayuri,
+  grade,
+  meliodas,
 };

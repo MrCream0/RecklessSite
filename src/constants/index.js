@@ -13,6 +13,8 @@ import {
   phantom,
   turtle,
   mayuri,
+  grade,
+  meliodas,
 } from "../assets";
 
 export const navLinks = [
@@ -101,7 +103,7 @@ const staff = [
       "Developed a passion for gaming with my first Xbox 360 at the age of 8",
       "Committed to promoting safe and enjoyable gaming experiences since the age of 16",
     ],
-    image: "",
+    image: meliodas,
   },
   {
     title: "Grade",
@@ -113,7 +115,7 @@ const staff = [
       "Avid gamer since the release of PlayStation 2",
       "Extensive experience gained from involvement in diverse gaming communities and clans over the years.",
     ],
-    image: "",
+    image: grade,
   },
   {
     title: "TRD Turtle",
