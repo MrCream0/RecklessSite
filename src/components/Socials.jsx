@@ -8,13 +8,18 @@ import { SectionWrapper } from "../hoc"
 import { socials } from "../constants"
 import { styles } from "../styles"
 
-const SocialCard = ({ index, icon}) => {
+const SocialCard = ({ index, icon, link}) => {
+
+  const handleCardRedirect = () => {
+    window.open(link, "_blank")
+  }
 
   return (
     <Tilt className="w-28 h-28">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-full shadow-card"
+        onClick={handleCardRedirect}
       >
         <div
           options={{ max: 45, scale: 1, speed: 450 }}
@@ -39,7 +44,7 @@ const Socials = () => {
 
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-20">
         {socials.map((social) => (
-          <SocialCard icon={social.icon} key={social.name}/>
+          <SocialCard icon={social.icon} key={social.name} link={social.link} />
         ))}
       </div>
     </>
