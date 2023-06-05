@@ -13,7 +13,7 @@ const StaffCard = ({ staff }) => (
     contentStyle={{ background: "#151313", color: "#881313" }}
     contentArrowStyle={{ borderRight: `7px solid #ff0000` }}
     date={staff.date}
-    iconStyle={{ background: staff.iconBg }}
+    iconStyle={{ background: "#881313"}}
     icon={
       <div className="flex justify-center items-center w-full h-full">
         <img 

@@ -15,13 +15,14 @@ import grade from "./GradeHeadshot.png";
 import meliodas from "./MeliodasHeadshot.png"
 
 import applesaurus from "./applesaurus.png";
-import octo1 from "./octo1.png";
-import octo2 from "./octo2.png";
-import octo3 from "./octo3.png";
 import headshot from "./headshot.png";
 import mousepad from "./MousePadNoBack.png";
 import hoodie from "./HoodieNoBack.png";
 import tumbler from "./TumblerNoBack.png";
+
+import a from "./a.png";
+import b from "./b.png";
+import c from "./c.png";
 
 export {
   logo,
@@ -33,9 +34,6 @@ export {
   twitter,
   insta,
   applesaurus,
-  octo1,
-  octo2,
-  octo3,
   headshot,
   mousepad,
   hoodie,
@@ -45,4 +43,7 @@ export {
   mayuri,
   grade,
   meliodas,
+  a,
+  b,
+  c,
 };

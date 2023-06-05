@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute top-[50%] left-[50%] transform translate(-50%, -50%)">
+      <div className="absolute top-[40%] left-[38%] transform translate(-50%, -50%)">
         <img src={logo} className="w-[360px] h-[420px]" alt="Logo" />
       </div>
 

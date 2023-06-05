@@ -4,9 +4,6 @@ import {
   mousepad,
   hoodie,
   tumbler,
-  octo1,
-  octo2,
-  octo3,
   tiktok,
   discord,
   twitter,
@@ -15,6 +12,9 @@ import {
   mayuri,
   grade,
   meliodas,
+  a,
+  b,
+  c,
 } from "../assets";
 
 export const navLinks = [
@@ -191,7 +191,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: octo1,
+    image: a,
     source_code_link: "https://toxicgaming.gg/",
   },
   {
@@ -212,7 +212,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: octo2,
+    image: b,
     source_code_link: "https://github.com/",
   },
   {
@@ -233,7 +233,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: octo3,
+    image: c,
     source_code_link: "https//Google.com/",
   },
 ];
