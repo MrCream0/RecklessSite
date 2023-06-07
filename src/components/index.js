@@ -9,6 +9,9 @@ import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Footer from './Footer';
 import Rules from './Rules';
+import AppForm from './AppForm';
+import AdminWindow from './AdminWindow';
+import LoginForm from './LoginForm';
 
 export {
   Hero,
@@ -25,4 +28,7 @@ export {
   StarsCanvas,
   Footer,
   Rules,
+  AppForm,
+  AdminWindow,
+  LoginForm,
 }

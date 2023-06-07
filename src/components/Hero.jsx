@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { motion } from "framer-motion"
 import { styles } from "../styles"
 import { ComputersCanvas } from "./canvas"
 import { SectionWrapper } from '../hoc'
 import logo from "../assets/logo.png"
+import LoginForm from './LoginForm';
 
 const Hero = () => {
+  const [showLoginForm, setShowLoginForm] = useState(false);
+  const toggleLoginForm = () => {
+    setShowLoginForm(!showLoginForm);
+  }
 
   return (
     <section className="realitve w-full h-[750px] mx-auto">
@@ -27,6 +32,13 @@ const Hero = () => {
       <div className="absolute top-[40%] left-[38%] transform translate(-50%, -50%)">
         <img src={logo} className="w-[360px] h-[420px]" alt="Logo" />
       </div>
+
+      <nav>
+        <div className="flex flex-box absolute top-[10%] left-[70%]">
+          <button onClick={toggleLoginForm} className="px-4 py-2 bg-white text-black border-indigo-200">Login</button>
+          {showLoginForm && <LoginForm />}
+        </div>
+      </nav>
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">

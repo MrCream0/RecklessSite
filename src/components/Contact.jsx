@@ -20,7 +20,7 @@ const Contact = () => {
   const handleSubmit = (e) => { }
 
   const redirectToApplication = () => {
-    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfU6IaqT8laPzuVxq6x5cKY5-LcDwRiH4yPzjGwtSk89tj2sQ/viewform";
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSf0J6f2VnAAxudw64x6LN-78L7GR6H3crUQGR7c64iY2QdY3A/viewform";
   }
 
   return (
