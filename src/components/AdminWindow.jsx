@@ -51,7 +51,7 @@ const AdminWindow = () => {
   };
 
   return (
-    <div className="fixed inset-0 w-full h-full bg-gray-100">
+    <div className="fixed inset-0 flex items-center justify-center bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-md">
         <h1 className="text-2xl mb-4">Admin Window</h1>
         {applications.map((application) => (
@@ -72,7 +72,7 @@ const ApplicationCard = ({ application, onDeny }) => {
   };
 
   return (
-    <div className=" flex flex-col items-center justify-center mb-4">
+    <div className="flex flex-col items-center justify-center mb-4">
       <h3 className="text-2xl text-red-500">{application.name}</h3>
       <p className="text-gray-300">Discovery: {application.discovery}</p>
       <p className="text-gray-300">Reason: {application.reason}</p>

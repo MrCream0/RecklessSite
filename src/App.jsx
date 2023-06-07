@@ -14,14 +14,14 @@ const App = () => {
   };
 
   useEffect(() => {
-    const token = localStorage.getItem("jwtToken");
+    const token = localStorage.getItem("token");
     if (token) {
       setIsAuthenticated(true);
     }
 
     const handleWindowBeforeUnload = (event) => {
       // Clear token from memory and local storage before the window is unloaded
-      localStorage.removeItem("jwtToken");
+      localStorage.removeItem("token");
     };
 
     window.addEventListener("beforeunload", handleWindowBeforeUnload);
@@ -49,7 +49,6 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
-        <AppForm />
         <nav>
           <div className="flex items-center justify-center absolute w-full h-[250px] flex-col">
             <button onClick={toggleLoginForm} className="px-6 py-3 bg-indigo-500 text-white rounded-md shadow-lg hover:bg-indigo-600">
