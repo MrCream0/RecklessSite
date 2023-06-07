@@ -24,7 +24,7 @@ const ApplicationForm = ({ onSubmit }) => {
 
         try {
             // For creating an application
-            const response = await fetch('http://localhost:3000/application', {
+            const response = await fetch('https://zurgngz.xyz/application', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -60,43 +60,81 @@ const ApplicationForm = ({ onSubmit }) => {
     };
 
     return (
-        <form onSubmit={handleSubmit} className="flex flex-col ">
-            <label>
+        <form onSubmit={handleSubmit} className="flex flex-col max-w-md mx-auto p-4 bg-black rounded-lg shadow-lg">
+            <label className="mb-2 text-white">
                 Name:
-                <input className="bg-[#883838]" type="text" value={name} onChange={(e) => setName(e.target.value)} />
+                <input
+                    className="bg-red-900 text-white rounded-md border border-red-600 px-2 py-1 mt-1 focus:outline-none focus:ring-2 focus:ring-red-600"
+                    type="text"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                />
             </label>
 
-            <label>
+            <label className="mb-2 text-white">
                 Discovery:
-                <input className="bg-[#883838]" type="text" value={discovery} onChange={(e) => setDiscovery(e.target.value)} />
+                <input
+                    className="bg-red-900 text-white rounded-md border border-red-600 px-2 py-1 mt-1 focus:outline-none focus:ring-2 focus:ring-red-600"
+                    type="text"
+                    value={discovery}
+                    onChange={(e) => setDiscovery(e.target.value)}
+                />
             </label>
 
-            <label>
+            <label className="mb-2 text-white">
                 Reason for Joining:
-                <textarea className="bg-[#883838]" value={reason} onChange={(e) => setReason(e.target.value)} />
+                <textarea
+                    className="bg-red-900 text-white rounded-md border border-red-600 px-2 py-1 mt-1 focus:outline-none focus:ring-2 focus:ring-red-600"
+                    value={reason}
+                    onChange={(e) => setReason(e.target.value)}
+                />
             </label>
 
-            <label>
+            <label className="mb-2 text-white">
                 Date of Birth:
-                <input className="bg-[#883838]" type="date" value={dob} onChange={(e) => setDob(e.target.value)} />
+                <input
+                    className="bg-red-900 text-white rounded-md border border-red-600 px-2 py-1 mt-1 focus:outline-none focus:ring-2 focus:ring-red-600"
+                    type="date"
+                    value={dob}
+                    onChange={(e) => setDob(e.target.value)}
+                />
             </label>
 
-            <label>
+            <label className="mb-2 text-white">
                 Additional Information:
-                <textarea className="bg-[#883838]" value={information} onChange={(e) => setInformation(e.target.value)} />
+                <textarea
+                    className="bg-red-900 text-white rounded-md border border-red-600 px-2 py-1 mt-1 focus:outline-none focus:ring-2 focus:ring-red-600"
+                    value={information}
+                    onChange={(e) => setInformation(e.target.value)}
+                />
             </label>
 
-            <label>
+            <label className="mb-2 text-white">
                 Member of Referral:
-                <input className="bg-[#883838]" type="text" value={referral} onChange={(e) => setReferral(e.target.value)} />
+                <input
+                    className="bg-red-900 text-white rounded-md border border-red-600 px-2 py-1 mt-1 focus:outline-none focus:ring-2 focus:ring-red-600"
+                    type="text"
+                    value={referral}
+                    onChange={(e) => setReferral(e.target.value)}
+                />
             </label>
 
-            <label>
+            <label className="mb-2 text-white">
                 Contact:
-                <input className="bg-[#883838]" type="email" value={contact} onChange={(e) => setContact(e.target.value)} />
+                <input
+                    className="bg-red-900 text-white rounded-md border border-red-600 px-2 py-1 mt-1 focus:outline-none focus:ring-2 focus:ring-red-600"
+                    type="email"
+                    value={contact}
+                    onChange={(e) => setContact(e.target.value)}
+                />
             </label>
 
-            <button className="bg-[#883838]" type="submit">Submit</button>
+            <button
+                className="bg-red-600 text-white rounded-md px-4 py-2 mt-4 hover:bg-red-700"
+                type="submit"
+            >
+                Submit
+            </button>
         </form>
     );
 

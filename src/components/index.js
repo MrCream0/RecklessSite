@@ -12,6 +12,7 @@ import Rules from './Rules';
 import AppForm from './AppForm';
 import AdminWindow from './AdminWindow';
 import LoginForm from './LoginForm';
+import ProtectedRoute from './ProtectedRoute';
 
 export {
   Hero,
@@ -31,4 +32,5 @@ export {
   AppForm,
   AdminWindow,
   LoginForm,
+  ProtectedRoute,
 }
