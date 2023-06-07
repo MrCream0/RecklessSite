@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import {
   About, Contact, Staff, Feedbacks, Hero, Navbar,
-  Socials, Works, StarsCanvas, Footer, Rules, AppForm, AdminWindow, LoginForm, ProtectedRoute
+  Socials, Works, StarsCanvas, Footer, Rules, AdminWindow, LoginForm
 } from "./components";
 
 const App = () => {
@@ -62,7 +62,7 @@ const App = () => {
           {!isAuthenticated ? (
             <Route path="/admin" element={<AdminWindow />} />
           ) : (
-            <Route path="/admin" element={<Navigate to="/#home" replace />} />
+            <Route path="/admin" element={<Navigate to="/login" replace />} />
           )}
         </Routes>
       </div>
