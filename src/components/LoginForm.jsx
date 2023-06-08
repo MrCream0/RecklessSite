@@ -52,8 +52,7 @@ const LoginForm = () => {
   };
 
   const handleAdminWindowOpen = () => {
-    //setShowAdminWindow(true);
-    navigate('/admin');
+    setShowAdminWindow(true);
   };
 
   const handleAdminWindowClose = () => {
@@ -108,7 +107,7 @@ const LoginForm = () => {
         </div>
       </div>
       <div className="">
-      {showAdminWindow && (
+        {showAdminWindow && (
           <div className="mt-4">
             <AdminWindow onClose={handleAdminWindowClose} />
           </div>

@@ -54,13 +54,15 @@ const AdminWindow = () => {
     <div className="fixed inset-0 flex items-center justify-center bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-md">
         <h1 className="text-2xl mb-4">Admin Window</h1>
-        {applications.map((application) => (
-          <ApplicationCard
-            key={application._id}
-            application={application}
-            onDeny={handleDeny}
-          />
-        ))}
+        <div className="overflow-y-auto max-h-96">
+          {applications.map((application) => (
+            <ApplicationCard
+              key={application._id}
+              application={application}
+              onDeny={handleDeny}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

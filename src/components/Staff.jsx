@@ -13,34 +13,34 @@ const StaffCard = ({ staff }) => (
     contentStyle={{ background: "#151313", color: "#881313" }}
     contentArrowStyle={{ borderRight: `7px solid #ff0000` }}
     date={staff.date}
-    iconStyle={{ background: "#881313"}}
+    iconStyle={{ background: "#881313" }}
     icon={
       <div className="flex justify-center items-center w-full h-full">
-        <img 
-        src={staff.icon}
-        alt={staff.company_name}
-        className="w-[60%] h-[60%] object-contain"/>
+        {/*<img
+          //src={staff.icon}
+          //alt={staff.company_name}
+    className="w-[60%] h-[60%] object-contain" />*/}
       </div>
     }>
-      <div>
-        <h3 className="text-white text-[24px] font-bold">
-          {staff.title}
-        </h3>
-        <p className="text-secondary text-[16px] font-semibold" style={{margin: 0}}>{staff.company_name}</p>
-      </div>
+    <div>
+      <h3 className="text-white text-[24px] font-bold">
+        {staff.title}
+      </h3>
+      <p className="text-secondary text-[16px] font-semibold" style={{ margin: 0 }}>{staff.company_name}</p>
+    </div>
 
-      <ul className="mt-5 list-disc ml-5 space-y-2">
-        {staff.points.map((point, index) => (
-          <li key={`staff-point-${index}`}
+    <ul className="mt-5 list-disc ml-5 space-y-2">
+      {staff.points.map((point, index) => (
+        <li key={`staff-point-${index}`}
           className="text-white-100 text-[14px] pl-1 tracking-wider">
-            {point}
-          </li>
-        ))}
-      </ul>
+          {point}
+        </li>
+      ))}
+    </ul>
 
-      <div className="flex flex-auto justify-center">
-        <img src={staff.image} className="w-[60%] h-[60%] object-contain"/>
-      </div>
+    <div className="flex flex-auto justify-center">
+      <img src={staff.image} className="w-[60%] h-[60%] object-contain" />
+    </div>
   </VerticalTimelineElement>
 )
 

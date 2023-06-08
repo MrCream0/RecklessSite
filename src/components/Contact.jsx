@@ -104,6 +104,7 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Interested in becoming a member?</p>
         <h3 className={`${styles.sectionHeadText} red-black-text-header-gradient`}>Join Here.</h3>
 
+        {/* form for backend application
         <form onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8'>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
@@ -186,6 +187,7 @@ const Contact = () => {
             {loading ? 'Sending...' : 'Send'}
           </button>
         </form>
+        */}
         <button
           className='bg-tertiary py-3 px-8 rounded-xl outline-none w-full text-white font-bold shadow-md shadow-primary mt-5'
           onClick={redirectToApplication}
