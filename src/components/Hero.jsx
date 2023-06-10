@@ -24,11 +24,11 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute top-[40%] left-[38%] transform translate(-50%, -50%)">
-        <img src={logo} className="w-[360px] h-[420px]" alt="Logo" />
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 translate-y-1/4 sm:translate-y-0">
+        <img src={logo} className="w-[360px] h-auto sm:w-[500px] sm:h-auto mx-auto" alt="Logo" />
       </div>
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      {/*<div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
@@ -44,7 +44,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div>*/}
     </section>
   )
 }
