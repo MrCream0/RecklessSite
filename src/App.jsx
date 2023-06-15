@@ -17,9 +17,10 @@ const App = () => {
       bg-no-repeat bg-center">
           <Navbar />
           <Hero />
+          <About />
         </div>
         <Socials />
-        <About />
+        {/*<About />*/}
         <Staff />
         <Rules />
         {/* Partners */}
