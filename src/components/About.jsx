@@ -5,7 +5,7 @@ import { styles } from "../styles"
 import { services } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
 import { SectionWrapper } from "../hoc"
-import LogoLong from "../assets/LogoLong.png"
+import LogoLong1 from "../assets/LogoLong1.png"
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -28,7 +28,7 @@ const About = () => {
   return (
     <>
       <div className="flex justify-center items-center">
-        <img src={LogoLong} className="" /> {/* Updated mt class */}
+        <img src={LogoLong1} className="mt-4 mb-4 p-8" /> {/* Updated mt class */}
       </div>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
