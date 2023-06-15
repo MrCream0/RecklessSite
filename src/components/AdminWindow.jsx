@@ -20,7 +20,7 @@ const AdminWindow = () => {
     const fetchApplications = async () => {
       try {
         const token = localStorage.getItem('token');
-        const response = await axios.get('https://zurgngz.xyz/application', {
+        const response = await axios.get('https://zurgngz.xyz', {
           headers: {
             Authorization: `${token}`,
           },
