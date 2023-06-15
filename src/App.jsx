@@ -19,6 +19,7 @@ const App = () => {
           {/*<Hero />*/}
           <About />
         </div>
+        <Contact />
         <Socials />
         {/*<About />*/}
         <Staff />
@@ -26,7 +27,7 @@ const App = () => {
         {/* Partners */}
         <Feedbacks />
         <div className="realitve z-0">
-          <Contact />
+
           <StarsCanvas />
         </div>
         {/* login button
