@@ -31,10 +31,6 @@ export const navLinks = [
     title: "Contact",
   },
   {
-    id: "partners",
-    title: "Partners",
-  },
-  {
     id: "socials",
     title: "Socials",
   },
@@ -64,7 +60,7 @@ const socials = [
   {
     name: "Discord",
     icon: discord,
-    link: "https://discord.gg",
+    link: "https://discord.gg/recklessdivision",
   },
   {
     name: "Twitter",
