@@ -70,12 +70,7 @@ const socials = [
     name: "Twitter",
     icon: twitter,
     link: "https://twitter.com/theofficialtrd?s=11&t=GI58u04S1I_SOGbGmdvA5Q",
-  },
-  {
-    name: "tik tok",
-    icon: tiktok,
-    link: "https://www.tiktok.com",
-  },
+  }
 ];
 
 const staff = [
